@@ -8,10 +8,12 @@ A program to create dialog boxes conveniently.
 ## Repository Structure
 
 ```
-GraphGenDecomp
+DialogCreater
     |- 对话框生成器        Version 2.6 (2015)
     |- WindowsCreate.bat  Version 1.3 (2014)
 ```
+
+You can get the release version of this program in [Release Page](https://github.com/LogCreative/DialogCreater/releases).
 
 ## Compilation
 
@@ -23,7 +25,7 @@ To edit this file, you need to open `WindowsCreate.bat` file in notepad or in Vi
 
 ### Visual Basic .NET (`.sln`)
 
-Visual Basic .NET solution file requires Visual Studio 2013+ to open. 
+Visual Basic .NET solution file requires Visual Studio 2013+ to open, with .NET Framework 3.5 installed.
 
 Before opening the solution file, please confirm your display font scaling is 100%. Otherwise, the project file will fail to display correctly and save such will casue **permenate damage** towards the original file. 
 
