@@ -1326,6 +1326,7 @@ Partial Class Form1
         'ToolStrip1
         '
         Me.ToolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
+        Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(18, 18)
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton3, Me.ToolStripButton1, Me.ToolStripSplitButton1, Me.ToolStripButton2, Me.ToolStripSeparator1, Me.ToolStripButton4, Me.ToolStripButton5, Me.ToolStripSeparator2, Me.ToolStripLabel1, Me.ToolStripProgressBar1, Me.ToolStripLabel2, Me.ToolStripLabel3})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
@@ -1340,7 +1341,7 @@ Partial Class Form1
         Me.ToolStripButton3.Image = CType(resources.GetObject("ToolStripButton3.Image"), System.Drawing.Image)
         Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton3.Name = "ToolStripButton3"
-        Me.ToolStripButton3.Size = New System.Drawing.Size(23, 36)
+        Me.ToolStripButton3.Size = New System.Drawing.Size(23, 22)
         Me.ToolStripButton3.Text = "ToolStripButton3"
         Me.ToolStripButton3.ToolTipText = "关于"
         '
@@ -1351,7 +1352,7 @@ Partial Class Form1
         Me.ToolStripButton1.Image = CType(resources.GetObject("ToolStripButton1.Image"), System.Drawing.Image)
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(23, 36)
+        Me.ToolStripButton1.Size = New System.Drawing.Size(23, 22)
         Me.ToolStripButton1.Text = "ToolStripButton1"
         Me.ToolStripButton1.ToolTipText = "帮助"
         '
@@ -1363,7 +1364,7 @@ Partial Class Form1
         Me.ToolStripSplitButton1.Image = CType(resources.GetObject("ToolStripSplitButton1.Image"), System.Drawing.Image)
         Me.ToolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripSplitButton1.Name = "ToolStripSplitButton1"
-        Me.ToolStripSplitButton1.Size = New System.Drawing.Size(32, 36)
+        Me.ToolStripSplitButton1.Size = New System.Drawing.Size(34, 22)
         Me.ToolStripSplitButton1.Text = "ToolStripSplitButton1"
         Me.ToolStripSplitButton1.ToolTipText = "载入"
         Me.ToolStripSplitButton1.Visible = False
@@ -1374,7 +1375,7 @@ Partial Class Form1
         Me.载入ToolStripMenuItem.Image = CType(resources.GetObject("载入ToolStripMenuItem.Image"), System.Drawing.Image)
         Me.载入ToolStripMenuItem.Name = "载入ToolStripMenuItem"
         Me.载入ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1
-        Me.载入ToolStripMenuItem.Size = New System.Drawing.Size(154, 38)
+        Me.载入ToolStripMenuItem.Size = New System.Drawing.Size(182, 24)
         Me.载入ToolStripMenuItem.Text = "载入(&L)"
         '
         '修改FToolStripMenuItem
@@ -1383,7 +1384,7 @@ Partial Class Form1
         Me.修改FToolStripMenuItem.Image = CType(resources.GetObject("修改FToolStripMenuItem.Image"), System.Drawing.Image)
         Me.修改FToolStripMenuItem.Name = "修改FToolStripMenuItem"
         Me.修改FToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.修改FToolStripMenuItem.Size = New System.Drawing.Size(154, 38)
+        Me.修改FToolStripMenuItem.Size = New System.Drawing.Size(182, 24)
         Me.修改FToolStripMenuItem.Text = "修改(&F)"
         '
         '说明SToolStripMenuItem
@@ -1392,7 +1393,7 @@ Partial Class Form1
         Me.说明SToolStripMenuItem.Image = CType(resources.GetObject("说明SToolStripMenuItem.Image"), System.Drawing.Image)
         Me.说明SToolStripMenuItem.Name = "说明SToolStripMenuItem"
         Me.说明SToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F3
-        Me.说明SToolStripMenuItem.Size = New System.Drawing.Size(154, 38)
+        Me.说明SToolStripMenuItem.Size = New System.Drawing.Size(182, 24)
         Me.说明SToolStripMenuItem.Text = "说明(&S)"
         '
         '删除DToolStripMenuItem
@@ -1401,7 +1402,7 @@ Partial Class Form1
         Me.删除DToolStripMenuItem.Image = CType(resources.GetObject("删除DToolStripMenuItem.Image"), System.Drawing.Image)
         Me.删除DToolStripMenuItem.Name = "删除DToolStripMenuItem"
         Me.删除DToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F4
-        Me.删除DToolStripMenuItem.Size = New System.Drawing.Size(154, 38)
+        Me.删除DToolStripMenuItem.Size = New System.Drawing.Size(182, 24)
         Me.删除DToolStripMenuItem.Text = "删除(&D)"
         '
         'ToolStripButton2
@@ -1410,13 +1411,13 @@ Partial Class Form1
         Me.ToolStripButton2.Image = CType(resources.GetObject("ToolStripButton2.Image"), System.Drawing.Image)
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
-        Me.ToolStripButton2.Size = New System.Drawing.Size(23, 36)
+        Me.ToolStripButton2.Size = New System.Drawing.Size(23, 22)
         Me.ToolStripButton2.ToolTipText = "运行"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 39)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 25)
         '
         'ToolStripButton4
         '
@@ -1424,7 +1425,7 @@ Partial Class Form1
         Me.ToolStripButton4.Image = CType(resources.GetObject("ToolStripButton4.Image"), System.Drawing.Image)
         Me.ToolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton4.Name = "ToolStripButton4"
-        Me.ToolStripButton4.Size = New System.Drawing.Size(23, 36)
+        Me.ToolStripButton4.Size = New System.Drawing.Size(23, 22)
         Me.ToolStripButton4.Text = "ToolStripButton4"
         Me.ToolStripButton4.ToolTipText = "复制代码至剪切板"
         Me.ToolStripButton4.Visible = False
@@ -1435,7 +1436,7 @@ Partial Class Form1
         Me.ToolStripButton5.Image = CType(resources.GetObject("ToolStripButton5.Image"), System.Drawing.Image)
         Me.ToolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton5.Name = "ToolStripButton5"
-        Me.ToolStripButton5.Size = New System.Drawing.Size(23, 36)
+        Me.ToolStripButton5.Size = New System.Drawing.Size(23, 22)
         Me.ToolStripButton5.Text = "ToolStripButton5"
         Me.ToolStripButton5.ToolTipText = "保存可执行码"
         Me.ToolStripButton5.Visible = False
@@ -1444,7 +1445,7 @@ Partial Class Form1
         '
         Me.ToolStripSeparator2.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 39)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 25)
         '
         'ToolStripLabel1
         '
@@ -1453,7 +1454,7 @@ Partial Class Form1
         Me.ToolStripLabel1.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.ToolStripLabel1.Image = CType(resources.GetObject("ToolStripLabel1.Image"), System.Drawing.Image)
         Me.ToolStripLabel1.Name = "ToolStripLabel1"
-        Me.ToolStripLabel1.Size = New System.Drawing.Size(16, 36)
+        Me.ToolStripLabel1.Size = New System.Drawing.Size(18, 22)
         Me.ToolStripLabel1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
         Me.ToolStripLabel1.ToolTipText = "返回值"
         Me.ToolStripLabel1.Visible = False
@@ -1472,7 +1473,7 @@ Partial Class Form1
         Me.ToolStripLabel2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.ToolStripLabel2.Image = CType(resources.GetObject("ToolStripLabel2.Image"), System.Drawing.Image)
         Me.ToolStripLabel2.Name = "ToolStripLabel2"
-        Me.ToolStripLabel2.Size = New System.Drawing.Size(16, 36)
+        Me.ToolStripLabel2.Size = New System.Drawing.Size(18, 22)
         Me.ToolStripLabel2.ToolTipText = "错误信息"
         Me.ToolStripLabel2.Visible = False
         '
@@ -1482,7 +1483,7 @@ Partial Class Form1
         Me.ToolStripLabel3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.ToolStripLabel3.Image = CType(resources.GetObject("ToolStripLabel3.Image"), System.Drawing.Image)
         Me.ToolStripLabel3.Name = "ToolStripLabel3"
-        Me.ToolStripLabel3.Size = New System.Drawing.Size(16, 36)
+        Me.ToolStripLabel3.Size = New System.Drawing.Size(18, 22)
         Me.ToolStripLabel3.ToolTipText = "可执行码正常。"
         Me.ToolStripLabel3.Visible = False
         '
