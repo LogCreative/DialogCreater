@@ -77,10 +77,10 @@
     <ApplicationIcon>View_8933.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>AA7640667664ADE2C4A6A7A6530068AD49BF2A17</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>B4079DA5864E5CEF8B1B3AA43D8FEDBD5ADCC8EB</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>对话框生成器_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>对话框生成器_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -158,6 +158,7 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <None Include="对话框生成器_1_TemporaryKey.pfx" />
     <None Include="对话框生成器_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

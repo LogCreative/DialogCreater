@@ -229,11 +229,11 @@ Partial Class Form1
         Me.TabPage1.Controls.Add(Me.Label2)
         Me.TabPage1.Controls.Add(Me.TextBox1)
         Me.TabPage1.Controls.Add(Me.Label1)
-        Me.TabPage1.Location = New System.Drawing.Point(8, 45)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 26)
         Me.TabPage1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.TabPage1.Size = New System.Drawing.Size(503, 351)
+        Me.TabPage1.Size = New System.Drawing.Size(511, 374)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "简易模式"
         '
@@ -242,7 +242,7 @@ Partial Class Form1
         Me.LabelResult.AutoSize = True
         Me.LabelResult.Location = New System.Drawing.Point(411, 240)
         Me.LabelResult.Name = "LabelResult"
-        Me.LabelResult.Size = New System.Drawing.Size(75, 31)
+        Me.LabelResult.Size = New System.Drawing.Size(39, 17)
         Me.LabelResult.TabIndex = 6
         Me.LabelResult.Text = "NUM"
         Me.LabelResult.Visible = False
@@ -255,7 +255,7 @@ Partial Class Form1
         Me.ComboBox1.Items.AddRange(New Object() {"16 MsgBoxStyle.Critical 重要信息", "32 MsgBoxStyle.Question 警告查询", "48 MsgBoxStyle.Exclamation 警告信息", "64 MsgBoxStyle.Information 信息消息", "0  MsgBoxStyle.OkOnly 仅确定按钮", "1  MsgBoxStyle.OkCancel 确定和取消按钮", "2  MsgBoxStyle.AbortRetryIgnore 中止重试忽略按钮", "3  MsgBoxStyle.YesNoCancel 是否取消按钮", "4  MsgBoxStyle.YesNo 是否按钮", "5  MsgBoxStyle.RetryCancel 重试取消按钮"})
         Me.ComboBox1.Location = New System.Drawing.Point(64, 65)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(432, 39)
+        Me.ComboBox1.Size = New System.Drawing.Size(432, 25)
         Me.ComboBox1.TabIndex = 5
         '
         'Label3
@@ -263,7 +263,7 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(8, 68)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(93, 31)
+        Me.Label3.Size = New System.Drawing.Size(47, 17)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "模式(&P)"
         '
@@ -272,7 +272,7 @@ Partial Class Form1
         Me.TextBox2.Location = New System.Drawing.Point(64, 36)
         Me.TextBox2.MaxLength = 1024
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(432, 39)
+        Me.TextBox2.Size = New System.Drawing.Size(432, 23)
         Me.TextBox2.TabIndex = 3
         '
         'Label2
@@ -280,7 +280,7 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(8, 39)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(91, 31)
+        Me.Label2.Size = New System.Drawing.Size(47, 17)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "内容(&E)"
         '
@@ -288,7 +288,7 @@ Partial Class Form1
         '
         Me.TextBox1.Location = New System.Drawing.Point(64, 7)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(432, 39)
+        Me.TextBox1.Size = New System.Drawing.Size(432, 23)
         Me.TextBox1.TabIndex = 1
         '
         'Label1
@@ -296,7 +296,7 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(8, 10)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(92, 31)
+        Me.Label1.Size = New System.Drawing.Size(47, 17)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "标题(&T)"
         '
@@ -312,11 +312,11 @@ Partial Class Form1
         Me.TabPage2.Controls.Add(Me.GroupBox1)
         Me.TabPage2.Controls.Add(Me.TextBox3)
         Me.TabPage2.Controls.Add(Me.PictureBox1)
-        Me.TabPage2.Location = New System.Drawing.Point(8, 45)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 26)
         Me.TabPage2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.TabPage2.Size = New System.Drawing.Size(503, 351)
+        Me.TabPage2.Size = New System.Drawing.Size(511, 374)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "普通模式"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -327,7 +327,7 @@ Partial Class Form1
         Me.Label4.BackColor = System.Drawing.SystemColors.Control
         Me.Label4.Location = New System.Drawing.Point(23, 245)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(110, 31)
+        Me.Label4.Size = New System.Drawing.Size(56, 17)
         Me.Label4.TabIndex = 9
         Me.Label4.Text = "按钮模式"
         '
@@ -367,7 +367,7 @@ Partial Class Form1
         Me.ComboBox2.Items.AddRange(New Object() {"0  仅确定按钮", "1  确定和取消按钮", "2  中止重试忽略按钮", "3  是否取消按钮", "4  是否按钮", "5  重试取消按钮"})
         Me.ComboBox2.Location = New System.Drawing.Point(85, 242)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(143, 39)
+        Me.ComboBox2.Size = New System.Drawing.Size(143, 25)
         Me.ComboBox2.TabIndex = 5
         '
         'TextBox4
@@ -412,7 +412,7 @@ Partial Class Form1
         Me.RadioButton5.Checked = True
         Me.RadioButton5.Location = New System.Drawing.Point(8, 17)
         Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(117, 35)
+        Me.RadioButton5.Size = New System.Drawing.Size(62, 21)
         Me.RadioButton5.TabIndex = 8
         Me.RadioButton5.TabStop = True
         Me.RadioButton5.Text = "不使用"
@@ -463,7 +463,7 @@ Partial Class Form1
         Me.RadioButton4.AutoSize = True
         Me.RadioButton4.Location = New System.Drawing.Point(86, 110)
         Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(141, 35)
+        Me.RadioButton4.Size = New System.Drawing.Size(74, 21)
         Me.RadioButton4.TabIndex = 3
         Me.RadioButton4.TabStop = True
         Me.RadioButton4.Text = "消息信息"
@@ -474,7 +474,7 @@ Partial Class Form1
         Me.RadioButton3.AutoSize = True
         Me.RadioButton3.Location = New System.Drawing.Point(8, 110)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(141, 35)
+        Me.RadioButton3.Size = New System.Drawing.Size(74, 21)
         Me.RadioButton3.TabIndex = 2
         Me.RadioButton3.TabStop = True
         Me.RadioButton3.Text = "警告信息"
@@ -485,7 +485,7 @@ Partial Class Form1
         Me.RadioButton2.AutoSize = True
         Me.RadioButton2.Location = New System.Drawing.Point(88, 39)
         Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(141, 35)
+        Me.RadioButton2.Size = New System.Drawing.Size(74, 21)
         Me.RadioButton2.TabIndex = 1
         Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "警告查询"
@@ -496,7 +496,7 @@ Partial Class Form1
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.Location = New System.Drawing.Point(8, 39)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(141, 35)
+        Me.RadioButton1.Size = New System.Drawing.Size(74, 21)
         Me.RadioButton1.TabIndex = 0
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "重要信息"
@@ -507,17 +507,17 @@ Partial Class Form1
         Me.TextBox3.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.TextBox3.Location = New System.Drawing.Point(6, 7)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(459, 39)
+        Me.TextBox3.Size = New System.Drawing.Size(459, 23)
         Me.TextBox3.TabIndex = 1
         '
         'TabPage3
         '
         Me.TabPage3.Controls.Add(Me.TabControl2)
         Me.TabPage3.Controls.Add(Me.Label7)
-        Me.TabPage3.Location = New System.Drawing.Point(8, 45)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 26)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(503, 351)
+        Me.TabPage3.Size = New System.Drawing.Size(511, 374)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "高级模式"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -551,10 +551,10 @@ Partial Class Form1
         Me.TabPage6.Controls.Add(Me.Label5)
         Me.TabPage6.Controls.Add(Me.TextBox5)
         Me.TabPage6.Controls.Add(Me.Label8)
-        Me.TabPage6.Location = New System.Drawing.Point(8, 45)
+        Me.TabPage6.Location = New System.Drawing.Point(4, 26)
         Me.TabPage6.Name = "TabPage6"
         Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage6.Size = New System.Drawing.Size(487, 297)
+        Me.TabPage6.Size = New System.Drawing.Size(495, 320)
         Me.TabPage6.TabIndex = 0
         Me.TabPage6.Text = "vb.net代码"
         Me.TabPage6.UseVisualStyleBackColor = True
@@ -564,7 +564,7 @@ Partial Class Form1
         Me.Label19.AutoSize = True
         Me.Label19.Location = New System.Drawing.Point(3, 204)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(110, 31)
+        Me.Label19.Size = New System.Drawing.Size(56, 17)
         Me.Label19.TabIndex = 17
         Me.Label19.Text = "提示信息"
         '
@@ -583,7 +583,7 @@ Partial Class Form1
         Me.Label6.AutoSize = True
         Me.Label6.Location = New System.Drawing.Point(3, 3)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(261, 31)
+        Me.Label6.Size = New System.Drawing.Size(133, 17)
         Me.Label6.TabIndex = 1
         Me.Label6.Text = "Visual Basic.net代码："
         '
@@ -593,7 +593,7 @@ Partial Class Form1
         Me.ComboBox5.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "16384", "65536", "4096"})
         Me.ComboBox5.Location = New System.Drawing.Point(285, 137)
         Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(182, 39)
+        Me.ComboBox5.Size = New System.Drawing.Size(182, 25)
         Me.ComboBox5.TabIndex = 4
         Me.ComboBox5.Text = "0"
         '
@@ -602,7 +602,7 @@ Partial Class Form1
         Me.Label9.AutoSize = True
         Me.Label9.Location = New System.Drawing.Point(468, 172)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(32, 31)
+        Me.Label9.Size = New System.Drawing.Size(17, 17)
         Me.Label9.TabIndex = 7
         Me.Label9.Text = """)"
         '
@@ -611,7 +611,7 @@ Partial Class Form1
         Me.Label10.AutoSize = True
         Me.Label10.Location = New System.Drawing.Point(55, 169)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(24, 31)
+        Me.Label10.Size = New System.Drawing.Size(13, 17)
         Me.Label10.TabIndex = 9
         Me.Label10.Text = """"
         '
@@ -622,7 +622,7 @@ Partial Class Form1
         Me.Label12.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Italic)
         Me.Label12.Location = New System.Drawing.Point(-2, 165)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(0, 31)
+        Me.Label12.Size = New System.Drawing.Size(0, 17)
         Me.Label12.TabIndex = 14
         Me.Label12.Visible = False
         '
@@ -631,7 +631,7 @@ Partial Class Form1
         Me.Label13.AutoSize = True
         Me.Label13.Location = New System.Drawing.Point(262, 140)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(32, 31)
+        Me.Label13.Size = New System.Drawing.Size(17, 17)
         Me.Label13.TabIndex = 15
         Me.Label13.Text = "+"
         '
@@ -639,7 +639,7 @@ Partial Class Form1
         '
         Me.TextBox7.Location = New System.Drawing.Point(74, 169)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(393, 39)
+        Me.TextBox7.Size = New System.Drawing.Size(393, 23)
         Me.TextBox7.TabIndex = 6
         '
         'ComboBox4
@@ -648,7 +648,7 @@ Partial Class Form1
         Me.ComboBox4.Items.AddRange(New Object() {"16", "32", "48", "64", "256", "512", "16384", "65536", "4096"})
         Me.ComboBox4.Location = New System.Drawing.Point(74, 137)
         Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(182, 39)
+        Me.ComboBox4.Size = New System.Drawing.Size(182, 25)
         Me.ComboBox4.TabIndex = 3
         Me.ComboBox4.Text = "0"
         '
@@ -657,7 +657,7 @@ Partial Class Form1
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(3, 23)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(123, 31)
+        Me.Label5.Size = New System.Drawing.Size(65, 17)
         Me.Label5.TabIndex = 0
         Me.Label5.Text = "Msgbox("""
         '
@@ -674,7 +674,7 @@ Partial Class Form1
         Me.Label8.AutoSize = True
         Me.Label8.Location = New System.Drawing.Point(468, 114)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(30, 31)
+        Me.Label8.Size = New System.Drawing.Size(16, 17)
         Me.Label8.TabIndex = 5
         Me.Label8.Text = ""","
         '
@@ -685,10 +685,10 @@ Partial Class Form1
         Me.TabPage7.Controls.Add(Me.Label11)
         Me.TabPage7.Controls.Add(Me.ComboBox3)
         Me.TabPage7.Controls.Add(Me.TextBox8)
-        Me.TabPage7.Location = New System.Drawing.Point(8, 45)
+        Me.TabPage7.Location = New System.Drawing.Point(4, 26)
         Me.TabPage7.Name = "TabPage7"
         Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage7.Size = New System.Drawing.Size(487, 297)
+        Me.TabPage7.Size = New System.Drawing.Size(495, 320)
         Me.TabPage7.TabIndex = 1
         Me.TabPage7.Text = "可执行码"
         Me.TabPage7.UseVisualStyleBackColor = True
@@ -707,7 +707,7 @@ Partial Class Form1
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Location = New System.Drawing.Point(358, 273)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(238, 35)
+        Me.CheckBox1.Size = New System.Drawing.Size(123, 21)
         Me.CheckBox1.TabIndex = 14
         Me.CheckBox1.Text = "使用重复执行数据"
         Me.CheckBox1.UseVisualStyleBackColor = True
@@ -717,7 +717,7 @@ Partial Class Form1
         Me.Label11.AutoSize = True
         Me.Label11.Location = New System.Drawing.Point(3, 277)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(158, 31)
+        Me.Label11.Size = New System.Drawing.Size(80, 17)
         Me.Label11.TabIndex = 13
         Me.Label11.Text = "可执行码转换"
         '
@@ -728,7 +728,7 @@ Partial Class Form1
         Me.ComboBox3.Items.AddRange(New Object() {"vbs", "bat"})
         Me.ComboBox3.Location = New System.Drawing.Point(89, 274)
         Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(57, 39)
+        Me.ComboBox3.Size = New System.Drawing.Size(57, 25)
         Me.ComboBox3.TabIndex = 11
         '
         'TextBox8
@@ -750,10 +750,10 @@ Partial Class Form1
         Me.TabPage8.Controls.Add(Me.Label21)
         Me.TabPage8.Controls.Add(Me.Label20)
         Me.TabPage8.Controls.Add(Me.PictureBox9)
-        Me.TabPage8.Location = New System.Drawing.Point(8, 45)
+        Me.TabPage8.Location = New System.Drawing.Point(4, 26)
         Me.TabPage8.Name = "TabPage8"
         Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage8.Size = New System.Drawing.Size(487, 297)
+        Me.TabPage8.Size = New System.Drawing.Size(495, 320)
         Me.TabPage8.TabIndex = 2
         Me.TabPage8.Text = "重复执行"
         Me.TabPage8.UseVisualStyleBackColor = True
@@ -763,7 +763,7 @@ Partial Class Form1
         Me.Label22.AutoSize = True
         Me.Label22.Location = New System.Drawing.Point(6, 159)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(110, 31)
+        Me.Label22.Size = New System.Drawing.Size(56, 17)
         Me.Label22.TabIndex = 6
         Me.Label22.Text = "运行状态"
         '
@@ -794,7 +794,7 @@ Partial Class Form1
         Me.NumericUpDown1.Maximum = New Decimal(New Integer() {300, 0, 0, 0})
         Me.NumericUpDown1.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
         Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(102, 39)
+        Me.NumericUpDown1.Size = New System.Drawing.Size(102, 23)
         Me.NumericUpDown1.TabIndex = 3
         Me.NumericUpDown1.Value = New Decimal(New Integer() {1, 0, 0, 0})
         '
@@ -803,7 +803,7 @@ Partial Class Form1
         Me.Label21.AutoSize = True
         Me.Label21.Location = New System.Drawing.Point(6, 25)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(158, 31)
+        Me.Label21.Size = New System.Drawing.Size(80, 17)
         Me.Label21.TabIndex = 2
         Me.Label21.Text = "设置重复次数"
         '
@@ -812,7 +812,7 @@ Partial Class Form1
         Me.Label20.AutoSize = True
         Me.Label20.Location = New System.Drawing.Point(28, 6)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(134, 31)
+        Me.Label20.Size = New System.Drawing.Size(68, 17)
         Me.Label20.TabIndex = 1
         Me.Label20.Text = "重复执行器"
         '
@@ -831,10 +831,10 @@ Partial Class Form1
         Me.TabPage9.Controls.Add(Me.GroupBox4)
         Me.TabPage9.Controls.Add(Me.GroupBox3)
         Me.TabPage9.Controls.Add(Me.GroupBox2)
-        Me.TabPage9.Location = New System.Drawing.Point(8, 45)
+        Me.TabPage9.Location = New System.Drawing.Point(4, 26)
         Me.TabPage9.Name = "TabPage9"
         Me.TabPage9.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage9.Size = New System.Drawing.Size(487, 297)
+        Me.TabPage9.Size = New System.Drawing.Size(495, 320)
         Me.TabPage9.TabIndex = 3
         Me.TabPage9.Text = "预设/自定义"
         Me.TabPage9.UseVisualStyleBackColor = True
@@ -877,7 +877,7 @@ Partial Class Form1
         Me.Label26.AutoSize = True
         Me.Label26.Location = New System.Drawing.Point(8, 99)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(0, 31)
+        Me.Label26.Size = New System.Drawing.Size(0, 17)
         Me.Label26.TabIndex = 2
         '
         'Label25
@@ -885,7 +885,7 @@ Partial Class Form1
         Me.Label25.AutoSize = True
         Me.Label25.Location = New System.Drawing.Point(8, 46)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(62, 31)
+        Me.Label25.Size = New System.Drawing.Size(32, 17)
         Me.Label25.TabIndex = 1
         Me.Label25.Text = "模式"
         '
@@ -895,7 +895,7 @@ Partial Class Form1
         Me.Label24.Font = New System.Drawing.Font("微软雅黑", 15.0!)
         Me.Label24.Location = New System.Drawing.Point(6, 19)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(103, 52)
+        Me.Label24.Size = New System.Drawing.Size(52, 27)
         Me.Label24.TabIndex = 0
         Me.Label24.Text = "标题"
         '
@@ -912,10 +912,10 @@ Partial Class Form1
         'ListBox2
         '
         Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.ItemHeight = 31
+        Me.ListBox2.ItemHeight = 17
         Me.ListBox2.Location = New System.Drawing.Point(8, 22)
         Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(231, 97)
+        Me.ListBox2.Size = New System.Drawing.Size(231, 106)
         Me.ListBox2.TabIndex = 0
         '
         'GroupBox2
@@ -931,11 +931,11 @@ Partial Class Form1
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 31
+        Me.ListBox1.ItemHeight = 17
         Me.ListBox1.Items.AddRange(New Object() {"内存错误", "致命错误", "关机威胁", "欠债威胁", "笨蛋提示", "超级巨大"})
         Me.ListBox1.Location = New System.Drawing.Point(6, 22)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(205, 97)
+        Me.ListBox1.Size = New System.Drawing.Size(204, 106)
         Me.ListBox1.TabIndex = 0
         '
         'TabPage10
@@ -945,10 +945,10 @@ Partial Class Form1
         Me.TabPage10.Controls.Add(Me.CheckBox3)
         Me.TabPage10.Controls.Add(Me.GroupBox6)
         Me.TabPage10.Controls.Add(Me.GroupBox5)
-        Me.TabPage10.Location = New System.Drawing.Point(8, 45)
+        Me.TabPage10.Location = New System.Drawing.Point(4, 26)
         Me.TabPage10.Name = "TabPage10"
         Me.TabPage10.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage10.Size = New System.Drawing.Size(487, 297)
+        Me.TabPage10.Size = New System.Drawing.Size(495, 320)
         Me.TabPage10.TabIndex = 4
         Me.TabPage10.Text = "鬼畜设置"
         Me.TabPage10.UseVisualStyleBackColor = True
@@ -977,7 +977,7 @@ Partial Class Form1
         Me.CheckBox3.AutoSize = True
         Me.CheckBox3.Location = New System.Drawing.Point(15, 108)
         Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(142, 35)
+        Me.CheckBox3.Size = New System.Drawing.Size(75, 21)
         Me.CheckBox3.TabIndex = 3
         Me.CheckBox3.Text = "多重存在"
         Me.CheckBox3.UseVisualStyleBackColor = True
@@ -1003,7 +1003,7 @@ Partial Class Form1
         Me.Label30.AutoSize = True
         Me.Label30.Location = New System.Drawing.Point(6, 19)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(858, 62)
+        Me.Label30.Size = New System.Drawing.Size(430, 34)
         Me.Label30.TabIndex = 5
         Me.Label30.Text = "这个应用程序在弹出对话框时，屏幕上最多存在50个对话框。多余的对话框不予" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "显示。除非关闭一些对话框，才会相应地弹出剩余的对话框。"
         '
@@ -1012,7 +1012,7 @@ Partial Class Form1
         Me.Label29.AutoSize = True
         Me.Label29.Location = New System.Drawing.Point(223, 62)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(238, 31)
+        Me.Label29.Size = New System.Drawing.Size(120, 17)
         Me.Label29.TabIndex = 4
         Me.Label29.Text = "毫秒(1秒=1000毫秒)"
         '
@@ -1021,7 +1021,7 @@ Partial Class Form1
         Me.Label28.AutoSize = True
         Me.Label28.Location = New System.Drawing.Point(6, 62)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(230, 31)
+        Me.Label28.Size = New System.Drawing.Size(116, 17)
         Me.Label28.TabIndex = 3
         Me.Label28.Text = "对话框弹出时间间隔"
         '
@@ -1030,7 +1030,7 @@ Partial Class Form1
         Me.NumericUpDown2.Location = New System.Drawing.Point(128, 60)
         Me.NumericUpDown2.Maximum = New Decimal(New Integer() {5000, 0, 0, 0})
         Me.NumericUpDown2.Name = "NumericUpDown2"
-        Me.NumericUpDown2.Size = New System.Drawing.Size(89, 39)
+        Me.NumericUpDown2.Size = New System.Drawing.Size(89, 23)
         Me.NumericUpDown2.TabIndex = 2
         Me.NumericUpDown2.Value = New Decimal(New Integer() {500, 0, 0, 0})
         '
@@ -1039,7 +1039,7 @@ Partial Class Form1
         Me.LinkLabel1.AutoSize = True
         Me.LinkLabel1.Location = New System.Drawing.Point(161, 86)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(110, 31)
+        Me.LinkLabel1.Size = New System.Drawing.Size(56, 17)
         Me.LinkLabel1.TabIndex = 1
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "重复运行"
@@ -1049,7 +1049,7 @@ Partial Class Form1
         Me.Label27.AutoSize = True
         Me.Label27.Location = New System.Drawing.Point(6, 86)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(326, 31)
+        Me.Label27.Size = New System.Drawing.Size(164, 17)
         Me.Label27.TabIndex = 0
         Me.Label27.Text = "建立在重复运行的基础之上。"
         '
@@ -1069,7 +1069,7 @@ Partial Class Form1
         Me.Label31.AutoSize = True
         Me.Label31.Location = New System.Drawing.Point(6, 46)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(830, 31)
+        Me.Label31.Size = New System.Drawing.Size(416, 17)
         Me.Label31.TabIndex = 1
         Me.Label31.Text = "选中本项后，本窗口再一次显示时将处于可用状态，可以进行进一步的操作。"
         '
@@ -1078,7 +1078,7 @@ Partial Class Form1
         Me.CheckBox2.AutoSize = True
         Me.CheckBox2.Location = New System.Drawing.Point(6, 22)
         Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(358, 35)
+        Me.CheckBox2.Size = New System.Drawing.Size(183, 21)
         Me.CheckBox2.TabIndex = 0
         Me.CheckBox2.Text = "运行对话框时最小化本生成器"
         Me.CheckBox2.UseVisualStyleBackColor = True
@@ -1088,7 +1088,7 @@ Partial Class Form1
         Me.Label7.AutoSize = True
         Me.Label7.Location = New System.Drawing.Point(477, 185)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(20, 31)
+        Me.Label7.Size = New System.Drawing.Size(11, 17)
         Me.Label7.TabIndex = 3
         Me.Label7.Text = ","
         '
@@ -1102,10 +1102,10 @@ Partial Class Form1
         Me.TabPage4.Controls.Add(Me.PictureHelp3)
         Me.TabPage4.Controls.Add(Me.PictureHelp2)
         Me.TabPage4.Controls.Add(Me.PictureHelp1)
-        Me.TabPage4.Location = New System.Drawing.Point(8, 45)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 26)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage4.Size = New System.Drawing.Size(503, 351)
+        Me.TabPage4.Size = New System.Drawing.Size(511, 374)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "软件帮助"
         Me.TabPage4.UseVisualStyleBackColor = True
@@ -1203,10 +1203,10 @@ Partial Class Form1
         Me.TabPage5.Controls.Add(Me.Label15)
         Me.TabPage5.Controls.Add(Me.Label14)
         Me.TabPage5.Controls.Add(Me.LogoPictureBox)
-        Me.TabPage5.Location = New System.Drawing.Point(8, 45)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 26)
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage5.Size = New System.Drawing.Size(503, 351)
+        Me.TabPage5.Size = New System.Drawing.Size(511, 374)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "关于软件"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -1216,7 +1216,7 @@ Partial Class Form1
         Me.Label33.AutoSize = True
         Me.Label33.Location = New System.Drawing.Point(275, 161)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(189, 31)
+        Me.Label33.Size = New System.Drawing.Size(96, 17)
         Me.Label33.TabIndex = 12
         Me.Label33.Text = "新功能 鬼畜模式"
         '
@@ -1225,7 +1225,7 @@ Partial Class Form1
         Me.Label32.AutoSize = True
         Me.Label32.Location = New System.Drawing.Point(200, 196)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(189, 62)
+        Me.Label32.Size = New System.Drawing.Size(99, 34)
         Me.Label32.TabIndex = 11
         Me.Label32.Text = "对话框生成器" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Dialogs Creater"
         '
@@ -1243,7 +1243,7 @@ Partial Class Form1
         Me.Label23.AutoSize = True
         Me.Label23.Location = New System.Drawing.Point(128, 122)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(155, 31)
+        Me.Label23.Size = New System.Drawing.Size(79, 17)
         Me.Label23.TabIndex = 9
         Me.Label23.Text = "(LC)No.0043"
         '
@@ -1272,7 +1272,7 @@ Partial Class Form1
         Me.Label18.AutoSize = True
         Me.Label18.Location = New System.Drawing.Point(128, 105)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(472, 31)
+        Me.Label18.Size = New System.Drawing.Size(243, 17)
         Me.Label18.TabIndex = 6
         Me.Label18.Text = "Created by Microsoft Visual Studio 2013"
         '
@@ -1281,7 +1281,7 @@ Partial Class Form1
         Me.Label17.AutoSize = True
         Me.Label17.Location = New System.Drawing.Point(128, 88)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(521, 31)
+        Me.Label17.Size = New System.Drawing.Size(265, 17)
         Me.Label17.TabIndex = 5
         Me.Label17.Text = "Li Copyright 2014-2015,All Rights Reserved. "
         '
@@ -1290,7 +1290,7 @@ Partial Class Form1
         Me.Label16.AutoSize = True
         Me.Label16.Location = New System.Drawing.Point(128, 56)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(140, 31)
+        Me.Label16.Size = New System.Drawing.Size(71, 17)
         Me.Label16.TabIndex = 4
         Me.Label16.Text = "版本：2.6.0"
         '
@@ -1299,7 +1299,7 @@ Partial Class Form1
         Me.Label15.AutoSize = True
         Me.Label15.Location = New System.Drawing.Point(128, 39)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(158, 31)
+        Me.Label15.Size = New System.Drawing.Size(80, 17)
         Me.Label15.TabIndex = 3
         Me.Label15.Text = "作者：李子龙"
         '
@@ -1309,7 +1309,7 @@ Partial Class Form1
         Me.Label14.Font = New System.Drawing.Font("微软雅黑", 15.0!)
         Me.Label14.Location = New System.Drawing.Point(126, 12)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(263, 52)
+        Me.Label14.Size = New System.Drawing.Size(132, 27)
         Me.Label14.TabIndex = 2
         Me.Label14.Text = "对话框生成器"
         '
@@ -1326,11 +1326,10 @@ Partial Class Form1
         'ToolStrip1
         '
         Me.ToolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
-        Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton3, Me.ToolStripButton1, Me.ToolStripSplitButton1, Me.ToolStripButton2, Me.ToolStripSeparator1, Me.ToolStripButton4, Me.ToolStripButton5, Me.ToolStripSeparator2, Me.ToolStripLabel1, Me.ToolStripProgressBar1, Me.ToolStripLabel2, Me.ToolStripLabel3})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(517, 42)
+        Me.ToolStrip1.Size = New System.Drawing.Size(517, 25)
         Me.ToolStrip1.TabIndex = 2
         Me.ToolStrip1.Text = "ToolStrip1"
         '
@@ -1341,7 +1340,7 @@ Partial Class Form1
         Me.ToolStripButton3.Image = CType(resources.GetObject("ToolStripButton3.Image"), System.Drawing.Image)
         Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton3.Name = "ToolStripButton3"
-        Me.ToolStripButton3.Size = New System.Drawing.Size(46, 36)
+        Me.ToolStripButton3.Size = New System.Drawing.Size(23, 36)
         Me.ToolStripButton3.Text = "ToolStripButton3"
         Me.ToolStripButton3.ToolTipText = "关于"
         '
@@ -1352,7 +1351,7 @@ Partial Class Form1
         Me.ToolStripButton1.Image = CType(resources.GetObject("ToolStripButton1.Image"), System.Drawing.Image)
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(46, 36)
+        Me.ToolStripButton1.Size = New System.Drawing.Size(23, 36)
         Me.ToolStripButton1.Text = "ToolStripButton1"
         Me.ToolStripButton1.ToolTipText = "帮助"
         '
@@ -1364,7 +1363,7 @@ Partial Class Form1
         Me.ToolStripSplitButton1.Image = CType(resources.GetObject("ToolStripSplitButton1.Image"), System.Drawing.Image)
         Me.ToolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripSplitButton1.Name = "ToolStripSplitButton1"
-        Me.ToolStripSplitButton1.Size = New System.Drawing.Size(59, 36)
+        Me.ToolStripSplitButton1.Size = New System.Drawing.Size(32, 36)
         Me.ToolStripSplitButton1.Text = "ToolStripSplitButton1"
         Me.ToolStripSplitButton1.ToolTipText = "载入"
         Me.ToolStripSplitButton1.Visible = False
@@ -1375,7 +1374,7 @@ Partial Class Form1
         Me.载入ToolStripMenuItem.Image = CType(resources.GetObject("载入ToolStripMenuItem.Image"), System.Drawing.Image)
         Me.载入ToolStripMenuItem.Name = "载入ToolStripMenuItem"
         Me.载入ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1
-        Me.载入ToolStripMenuItem.Size = New System.Drawing.Size(270, 44)
+        Me.载入ToolStripMenuItem.Size = New System.Drawing.Size(154, 38)
         Me.载入ToolStripMenuItem.Text = "载入(&L)"
         '
         '修改FToolStripMenuItem
@@ -1384,7 +1383,7 @@ Partial Class Form1
         Me.修改FToolStripMenuItem.Image = CType(resources.GetObject("修改FToolStripMenuItem.Image"), System.Drawing.Image)
         Me.修改FToolStripMenuItem.Name = "修改FToolStripMenuItem"
         Me.修改FToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.修改FToolStripMenuItem.Size = New System.Drawing.Size(270, 44)
+        Me.修改FToolStripMenuItem.Size = New System.Drawing.Size(154, 38)
         Me.修改FToolStripMenuItem.Text = "修改(&F)"
         '
         '说明SToolStripMenuItem
@@ -1393,7 +1392,7 @@ Partial Class Form1
         Me.说明SToolStripMenuItem.Image = CType(resources.GetObject("说明SToolStripMenuItem.Image"), System.Drawing.Image)
         Me.说明SToolStripMenuItem.Name = "说明SToolStripMenuItem"
         Me.说明SToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F3
-        Me.说明SToolStripMenuItem.Size = New System.Drawing.Size(270, 44)
+        Me.说明SToolStripMenuItem.Size = New System.Drawing.Size(154, 38)
         Me.说明SToolStripMenuItem.Text = "说明(&S)"
         '
         '删除DToolStripMenuItem
@@ -1402,7 +1401,7 @@ Partial Class Form1
         Me.删除DToolStripMenuItem.Image = CType(resources.GetObject("删除DToolStripMenuItem.Image"), System.Drawing.Image)
         Me.删除DToolStripMenuItem.Name = "删除DToolStripMenuItem"
         Me.删除DToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F4
-        Me.删除DToolStripMenuItem.Size = New System.Drawing.Size(270, 44)
+        Me.删除DToolStripMenuItem.Size = New System.Drawing.Size(154, 38)
         Me.删除DToolStripMenuItem.Text = "删除(&D)"
         '
         'ToolStripButton2
@@ -1411,13 +1410,13 @@ Partial Class Form1
         Me.ToolStripButton2.Image = CType(resources.GetObject("ToolStripButton2.Image"), System.Drawing.Image)
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
-        Me.ToolStripButton2.Size = New System.Drawing.Size(46, 36)
+        Me.ToolStripButton2.Size = New System.Drawing.Size(23, 36)
         Me.ToolStripButton2.ToolTipText = "运行"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 42)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 39)
         '
         'ToolStripButton4
         '
@@ -1425,7 +1424,7 @@ Partial Class Form1
         Me.ToolStripButton4.Image = CType(resources.GetObject("ToolStripButton4.Image"), System.Drawing.Image)
         Me.ToolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton4.Name = "ToolStripButton4"
-        Me.ToolStripButton4.Size = New System.Drawing.Size(46, 36)
+        Me.ToolStripButton4.Size = New System.Drawing.Size(23, 36)
         Me.ToolStripButton4.Text = "ToolStripButton4"
         Me.ToolStripButton4.ToolTipText = "复制代码至剪切板"
         Me.ToolStripButton4.Visible = False
@@ -1436,7 +1435,7 @@ Partial Class Form1
         Me.ToolStripButton5.Image = CType(resources.GetObject("ToolStripButton5.Image"), System.Drawing.Image)
         Me.ToolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton5.Name = "ToolStripButton5"
-        Me.ToolStripButton5.Size = New System.Drawing.Size(46, 36)
+        Me.ToolStripButton5.Size = New System.Drawing.Size(23, 36)
         Me.ToolStripButton5.Text = "ToolStripButton5"
         Me.ToolStripButton5.ToolTipText = "保存可执行码"
         Me.ToolStripButton5.Visible = False
@@ -1445,7 +1444,7 @@ Partial Class Form1
         '
         Me.ToolStripSeparator2.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 42)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 39)
         '
         'ToolStripLabel1
         '
@@ -1454,7 +1453,7 @@ Partial Class Form1
         Me.ToolStripLabel1.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.ToolStripLabel1.Image = CType(resources.GetObject("ToolStripLabel1.Image"), System.Drawing.Image)
         Me.ToolStripLabel1.Name = "ToolStripLabel1"
-        Me.ToolStripLabel1.Size = New System.Drawing.Size(32, 36)
+        Me.ToolStripLabel1.Size = New System.Drawing.Size(16, 36)
         Me.ToolStripLabel1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
         Me.ToolStripLabel1.ToolTipText = "返回值"
         Me.ToolStripLabel1.Visible = False
@@ -1463,7 +1462,7 @@ Partial Class Form1
         '
         Me.ToolStripProgressBar1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
         Me.ToolStripProgressBar1.Name = "ToolStripProgressBar1"
-        Me.ToolStripProgressBar1.Size = New System.Drawing.Size(100, 36)
+        Me.ToolStripProgressBar1.Size = New System.Drawing.Size(100, 22)
         Me.ToolStripProgressBar1.Step = 1
         Me.ToolStripProgressBar1.Visible = False
         '
@@ -1473,7 +1472,7 @@ Partial Class Form1
         Me.ToolStripLabel2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.ToolStripLabel2.Image = CType(resources.GetObject("ToolStripLabel2.Image"), System.Drawing.Image)
         Me.ToolStripLabel2.Name = "ToolStripLabel2"
-        Me.ToolStripLabel2.Size = New System.Drawing.Size(32, 36)
+        Me.ToolStripLabel2.Size = New System.Drawing.Size(16, 36)
         Me.ToolStripLabel2.ToolTipText = "错误信息"
         Me.ToolStripLabel2.Visible = False
         '
@@ -1483,7 +1482,7 @@ Partial Class Form1
         Me.ToolStripLabel3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.ToolStripLabel3.Image = CType(resources.GetObject("ToolStripLabel3.Image"), System.Drawing.Image)
         Me.ToolStripLabel3.Name = "ToolStripLabel3"
-        Me.ToolStripLabel3.Size = New System.Drawing.Size(32, 36)
+        Me.ToolStripLabel3.Size = New System.Drawing.Size(16, 36)
         Me.ToolStripLabel3.ToolTipText = "可执行码正常。"
         Me.ToolStripLabel3.Visible = False
         '
@@ -1492,9 +1491,9 @@ Partial Class Form1
         Me.StatusStrip1.BackColor = System.Drawing.Color.DodgerBlue
         Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LabelTip})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 407)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 426)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(517, 41)
+        Me.StatusStrip1.Size = New System.Drawing.Size(517, 22)
         Me.StatusStrip1.SizingGrip = False
         Me.StatusStrip1.TabIndex = 3
         Me.StatusStrip1.TabStop = True
@@ -1505,7 +1504,7 @@ Partial Class Form1
         Me.LabelTip.BackColor = System.Drawing.SystemColors.Control
         Me.LabelTip.ForeColor = System.Drawing.Color.White
         Me.LabelTip.Name = "LabelTip"
-        Me.LabelTip.Size = New System.Drawing.Size(62, 31)
+        Me.LabelTip.Size = New System.Drawing.Size(32, 17)
         Me.LabelTip.Text = "就绪"
         '
         'SaveFileDialog1
@@ -1523,7 +1522,7 @@ Partial Class Form1
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(14.0!, 31.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 17.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(517, 448)
