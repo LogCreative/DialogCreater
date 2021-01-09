@@ -1,4 +1,7 @@
-﻿Public Class Form1
+﻿' Dialog Creater
+' LogCreative 2021 Dist Version
+' https://github.com/LogCreative/DialogCreater
+Public Class Form1
     Dim num, ok As Integer
     Dim x, y As Integer
     Dim MoreVis As Boolean
