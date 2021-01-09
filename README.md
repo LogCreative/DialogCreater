@@ -5,6 +5,8 @@ A program to create dialog boxes conveniently.
 
 > [Log Infinity Project](https://github.com/LogCreative/LogInfinity) Memory Box
 
+![](program.gif)
+
 ## Repository Structure
 
 ```

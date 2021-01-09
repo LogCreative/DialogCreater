@@ -119,6 +119,7 @@ Partial Class Form1
         Me.PictureHelp2 = New System.Windows.Forms.PictureBox()
         Me.PictureHelp1 = New System.Windows.Forms.PictureBox()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Button9 = New System.Windows.Forms.Button()
@@ -1191,6 +1192,7 @@ Partial Class Form1
         '
         'TabPage5
         '
+        Me.TabPage5.Controls.Add(Me.LinkLabel2)
         Me.TabPage5.Controls.Add(Me.Label33)
         Me.TabPage5.Controls.Add(Me.Label32)
         Me.TabPage5.Controls.Add(Me.Button9)
@@ -1210,6 +1212,16 @@ Partial Class Form1
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "关于软件"
         Me.TabPage5.UseVisualStyleBackColor = True
+        '
+        'LinkLabel2
+        '
+        Me.LinkLabel2.AutoSize = True
+        Me.LinkLabel2.Location = New System.Drawing.Point(285, 88)
+        Me.LinkLabel2.Name = "LinkLabel2"
+        Me.LinkLabel2.Size = New System.Drawing.Size(86, 17)
+        Me.LinkLabel2.TabIndex = 13
+        Me.LinkLabel2.TabStop = True
+        Me.LinkLabel2.Text = "Github 存储库"
         '
         'Label33
         '
@@ -1281,9 +1293,9 @@ Partial Class Form1
         Me.Label17.AutoSize = True
         Me.Label17.Location = New System.Drawing.Point(128, 88)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(265, 17)
+        Me.Label17.Size = New System.Drawing.Size(150, 17)
         Me.Label17.TabIndex = 5
-        Me.Label17.Text = "Li Copyright 2014-2015,All Rights Reserved. "
+        Me.Label17.Text = "Li Copyright 2014-2015. "
         '
         'Label16
         '
@@ -1299,9 +1311,9 @@ Partial Class Form1
         Me.Label15.AutoSize = True
         Me.Label15.Location = New System.Drawing.Point(128, 39)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(80, 17)
+        Me.Label15.Size = New System.Drawing.Size(113, 17)
         Me.Label15.TabIndex = 3
-        Me.Label15.Text = "作者：李子龙"
+        Me.Label15.Text = "作者：LogCreative"
         '
         'Label14
         '
@@ -1375,7 +1387,7 @@ Partial Class Form1
         Me.载入ToolStripMenuItem.Image = CType(resources.GetObject("载入ToolStripMenuItem.Image"), System.Drawing.Image)
         Me.载入ToolStripMenuItem.Name = "载入ToolStripMenuItem"
         Me.载入ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1
-        Me.载入ToolStripMenuItem.Size = New System.Drawing.Size(182, 24)
+        Me.载入ToolStripMenuItem.Size = New System.Drawing.Size(140, 24)
         Me.载入ToolStripMenuItem.Text = "载入(&L)"
         '
         '修改FToolStripMenuItem
@@ -1384,7 +1396,7 @@ Partial Class Form1
         Me.修改FToolStripMenuItem.Image = CType(resources.GetObject("修改FToolStripMenuItem.Image"), System.Drawing.Image)
         Me.修改FToolStripMenuItem.Name = "修改FToolStripMenuItem"
         Me.修改FToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.修改FToolStripMenuItem.Size = New System.Drawing.Size(182, 24)
+        Me.修改FToolStripMenuItem.Size = New System.Drawing.Size(140, 24)
         Me.修改FToolStripMenuItem.Text = "修改(&F)"
         '
         '说明SToolStripMenuItem
@@ -1393,7 +1405,7 @@ Partial Class Form1
         Me.说明SToolStripMenuItem.Image = CType(resources.GetObject("说明SToolStripMenuItem.Image"), System.Drawing.Image)
         Me.说明SToolStripMenuItem.Name = "说明SToolStripMenuItem"
         Me.说明SToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F3
-        Me.说明SToolStripMenuItem.Size = New System.Drawing.Size(182, 24)
+        Me.说明SToolStripMenuItem.Size = New System.Drawing.Size(140, 24)
         Me.说明SToolStripMenuItem.Text = "说明(&S)"
         '
         '删除DToolStripMenuItem
@@ -1402,7 +1414,7 @@ Partial Class Form1
         Me.删除DToolStripMenuItem.Image = CType(resources.GetObject("删除DToolStripMenuItem.Image"), System.Drawing.Image)
         Me.删除DToolStripMenuItem.Name = "删除DToolStripMenuItem"
         Me.删除DToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F4
-        Me.删除DToolStripMenuItem.Size = New System.Drawing.Size(182, 24)
+        Me.删除DToolStripMenuItem.Size = New System.Drawing.Size(140, 24)
         Me.删除DToolStripMenuItem.Text = "删除(&D)"
         '
         'ToolStripButton2
@@ -1727,5 +1739,5 @@ Partial Class Form1
     Friend WithEvents Label32 As System.Windows.Forms.Label
     Friend WithEvents Button9 As System.Windows.Forms.Button
     Friend WithEvents Timer2 As System.Windows.Forms.Timer
-
+    Friend WithEvents LinkLabel2 As LinkLabel
 End Class

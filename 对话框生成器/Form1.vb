@@ -1356,6 +1356,14 @@ Public Class Form1
         Call Test()
     End Sub
 
+    Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
+        Try
+            System.Diagnostics.Process.Start("https://github.com/LogCreative/DialogCreater")
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
         a = 0
         Timer2.Start()
