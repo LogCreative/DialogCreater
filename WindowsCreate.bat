@@ -5,12 +5,12 @@ Setlocal enabledelayedexpansion
 ::Li Copyright(LC) 2013-2014,all rights reserved.
 ::LogCreative 2020 Modified for 1.3
 ::(LC)No.0043
-::Please open this file with encoding of GB 2312
+::Please open this file with the encoding of GB 2312
 ::---------------------------------------------
 cls
 title 简易对话框创建器
 color 0f
-echo WindowsCreat	%RANDOM%		%date%  %time:~0,8%>>.\runlog.txt
+::echo WindowsCreat	%RANDOM%		%date%  %time:~0,8%>>.\runlog.txt
 :mainmenu
 cls
 echo.
