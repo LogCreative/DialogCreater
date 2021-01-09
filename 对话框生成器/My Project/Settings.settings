@@ -1,0 +1,128 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="M1T" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M1M1" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="M1M2" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="M1P" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M2T" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M2M1" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="M2M2" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="M2P" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M3T" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M3M1" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="M3M2" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="M3P" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M4T" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M4M1" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="M4M2" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="M4P" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M5T" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M5M1" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="M5M2" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="M5P" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M6T" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M6M1" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="M6M2" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="M6P" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M1S" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M2S" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M3S" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M4S" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M5S" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="M6S" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;空&gt;</Value>
+    </Setting>
+    <Setting Name="L1T" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="L1M1" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="L1M2" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="L1P" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Database1Connection" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="TestMode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="MinStart" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MoreVis" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="VisInterval" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">500</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
