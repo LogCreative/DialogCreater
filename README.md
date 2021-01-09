@@ -1,4 +1,4 @@
-# Dialog Creater
+# Dialog Creator
 A program to create dialog boxes conveniently.
 
 (LC) LogCreative 2014 - 2015
@@ -10,12 +10,12 @@ A program to create dialog boxes conveniently.
 ## Repository Structure
 
 ```
-DialogCreater
-    |- 对话框生成器        Version 2.6 (2015)
-    |- WindowsCreate.bat  Version 1.3 (2014)
+DialogCreator
+    |- 对话框生成器         Version 2.6 (2015)
+    |- WindowsCreate.bat    Version 1.3 (2014)
 ```
 
-You can get the release version of this program in [Release Page](https://github.com/LogCreative/DialogCreater/releases).
+You can get the release version of this program in [Release Page](https://github.com/LogCreative/DialogCreator/releases).
 
 ## Compilation
 

@@ -68,9 +68,9 @@ Public Class Form1
                 LabelResult.Text = result
             ElseIf Me.ComboBox1.Text = "48 MsgBoxStyle.Exclamation 警告信息" Then
                 Dim result As Integer = MsgBox(Me.TextBox2.Text, MsgBoxStyle.Exclamation, Me.TextBox1.Text)
+                Dim result As Integer = MsgBox(Me.TextBox2.Text, MsgBoxStyle.Information, Me.TextBox1.Text)
                 LabelResult.Text = result
             ElseIf Me.ComboBox1.Text = "64 MsgBoxStyle.Information 信息消息" Then
-                Dim result As Integer = MsgBox(Me.TextBox2.Text, MsgBoxStyle.Information, Me.TextBox1.Text)
                 LabelResult.Text = result
             ElseIf Me.ComboBox1.Text = "0  MsgBoxStyle.OkOnly 仅确定按钮" Then
                 Dim result As Integer = MsgBox(Me.TextBox2.Text, MsgBoxStyle.OkOnly, Me.TextBox1.Text)

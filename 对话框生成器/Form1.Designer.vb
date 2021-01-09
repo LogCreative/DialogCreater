@@ -1237,9 +1237,9 @@ Partial Class Form1
         Me.Label32.AutoSize = True
         Me.Label32.Location = New System.Drawing.Point(200, 196)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(99, 34)
+        Me.Label32.Size = New System.Drawing.Size(94, 34)
         Me.Label32.TabIndex = 11
-        Me.Label32.Text = "对话框生成器" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Dialogs Creater"
+        Me.Label32.Text = "对话框生成器" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Dialog Creator"
         '
         'Button9
         '
