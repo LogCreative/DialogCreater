@@ -17,6 +17,11 @@ DialogCreator
 
 You can get the release version of this program in [Release Page](https://github.com/LogCreative/DialogCreator/releases).
 
+## Objective
+
+- This program provides those who want to generate Windows dialogs a convienent and visualized way.
+- This program provides a way to create multiple Windows dialogs by using timer to generate them with a certain amount of time gap.
+
 ## Compilation
 
 The compilation should be performed carefully because the file is too old to open-and-compile correctly on modern operating systems.
@@ -31,7 +36,7 @@ Visual Basic .NET solution file requires Visual Studio 2013+ to open, with .NET 
 
 Before opening the solution file, please confirm your display font scaling is 100%. Otherwise, the project file will fail to display correctly and save such will casue **permenate damage** towards the original file. 
 
-The bug of not correctly display `toolbar` in `VB.NET` has not been fixed since 2014 for Visual Studio.
+The bug of not correctly displaying `toolbar` in `VB.NET` has not been fixed since 2014 for Visual Studio.
 
 ## Copyright Changes
 
