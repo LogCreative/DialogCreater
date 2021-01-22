@@ -34,6 +34,7 @@ Public Class Form1
         End Select
         NumericUpDown2.Value = My.Settings.VisInterval
         Button7.Enabled = False
+        Label16.Text = "版本：" & Application.ProductVersion
     End Sub
     Private Sub Test()
         MsgBox("16", MsgBoxStyle.Critical, "重要信息")
@@ -1352,7 +1353,7 @@ Public Class Form1
 
     Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
         Try
-            System.Diagnostics.Process.Start("https://github.com/LogCreative/DialogCreater")
+            System.Diagnostics.Process.Start("https://github.com/LogCreative/DialogCreator")
         Catch ex As Exception
 
         End Try

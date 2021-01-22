@@ -38,6 +38,8 @@ Before opening the solution file, please confirm your display font scaling is 10
 
 The bug of not correctly displaying `toolbar` in `VB.NET` has not been fixed since 2014 for Visual Studio.
 
+The bugs of minimization and VBS Generator error are fixed.
+
 ## Copyright Changes
 
 This repository now use MIT LICENSE, which means you can modify and redistribute this program under the license requirement, i.e., appending the original website to your modified program.
