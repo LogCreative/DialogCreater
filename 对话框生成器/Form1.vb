@@ -68,9 +68,9 @@ Public Class Form1
                 LabelResult.Text = result
             ElseIf Me.ComboBox1.Text = "48 MsgBoxStyle.Exclamation 警告信息" Then
                 Dim result As Integer = MsgBox(Me.TextBox2.Text, MsgBoxStyle.Exclamation, Me.TextBox1.Text)
-                Dim result As Integer = MsgBox(Me.TextBox2.Text, MsgBoxStyle.Information, Me.TextBox1.Text)
                 LabelResult.Text = result
             ElseIf Me.ComboBox1.Text = "64 MsgBoxStyle.Information 信息消息" Then
+                Dim result As Integer = MsgBox(Me.TextBox2.Text, MsgBoxStyle.Information, Me.TextBox1.Text)
                 LabelResult.Text = result
             ElseIf Me.ComboBox1.Text = "0  MsgBoxStyle.OkOnly 仅确定按钮" Then
                 Dim result As Integer = MsgBox(Me.TextBox2.Text, MsgBoxStyle.OkOnly, Me.TextBox1.Text)
@@ -226,7 +226,7 @@ Public Class Form1
             End If
         End If
         '结束
-        If MoreVis = False Then
+        If MoreVis = False Or TabControl1.SelectedIndex <> 2 Or TabControl2.SelectedIndex <> 2 Then
             Me.Text = "对话框生成器"
             Me.StatusStrip1.BackColor = Color.DodgerBlue
             Me.Show()
@@ -389,7 +389,7 @@ Public Class Form1
         End If
     End Sub
     Private Sub VBS()
-        Me.TextBox8.Text = "Msgbox(" & """" & TextBox5.Text & """" & "," & ComboBox4.Text & "+" & ComboBox5.Text & "," & """" & TextBox7.Text & """" & ")" & "(window.close)"
+        Me.TextBox8.Text = "msgbox " & """" & TextBox5.Text & """" & "," & ComboBox4.Text & "+" & ComboBox5.Text & "," & """" & TextBox7.Text & """"
         If Me.TextBox5.TextLength > 1024 And Me.TextBox5.Lines.Length > 1 Then
             Me.ToolStripLabel2.Visible = True
             Me.ToolStripLabel3.Visible = False
@@ -698,19 +698,13 @@ Public Class Form1
     Private Sub CHANGERESTART()
         If ComboBox3.Text = "vbs" Then
             Dim num, ok As Integer
-            Dim csvbs As String = "Msgbox(" & """" & TextBox5.Text & """" & "," & ComboBox4.Text & "+" & ComboBox5.Text & "," & """" & TextBox7.Text & """" & ")" & "(window.close)"
+            Dim csvbs As String = "msgbox " & """" & TextBox5.Text & """" & "," & ComboBox4.Text & "+" & ComboBox5.Text & "," & """" & TextBox7.Text & """"
             num = NumericUpDown1.Value
             ok = 0
-            TextBox8.Text = ""
-            ToolStripProgressBar1.Visible = True
-            ToolStripProgressBar1.Maximum = num
-            ToolStripProgressBar1.Value = 0
-            Do
-                ok = ok + 1
-                ToolStripProgressBar1.Value = ok
-                TextBox8.Text += csvbs & vbNewLine
-            Loop Until (ok = num)
-            ToolStripProgressBar1.Visible = False
+            TextBox8.Text = "'对话框生成器重复执行器生成代码 (LC) No.0043" & vbNewLine
+            TextBox8.Text += "for i = 1 to " & num & vbNewLine
+            TextBox8.Text += vbTab & csvbs & vbNewLine
+            TextBox8.Text += "next"
             If Me.TextBox5.TextLength > 1024 And Me.TextBox5.Lines.Length > 1 Then
                 Me.ToolStripLabel2.Visible = True
                 Me.ToolStripLabel3.Visible = False
