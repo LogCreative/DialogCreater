@@ -17,6 +17,8 @@ DialogCreator
 
 You can get the release version of this program in [Release Page](https://github.com/LogCreative/DialogCreator/releases).
 
+> Original Release Page: [【（自制）】对话框生成器](https://tieba.baidu.com/p/4158161804?pid=78992811420&cid=0&red_tag=2089301819#78992811420)
+
 ## Objective
 
 - This program provides those who want to generate Windows dialogs a convienent and visualized way.
